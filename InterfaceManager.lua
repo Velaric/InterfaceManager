@@ -3,7 +3,7 @@ local httpService = game:GetService("HttpService")
 local InterfaceManager = {} do
 	InterfaceManager.Folder = "FluentSettings"
     InterfaceManager.Settings = {
-        Theme = "Dark",
+        Theme = "Sunset",
         Acrylic = true,
         Transparency = true,
         MenuKeybind = "LeftControl"
@@ -110,5 +110,6 @@ local InterfaceManager = {} do
 		Library.MinimizeKeybind = MenuKeybind
     end
 end
+
 
 return InterfaceManager
